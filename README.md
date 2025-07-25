@@ -42,7 +42,6 @@ Transformer 分支 (Transformer Branch)：该分支采用一种改进的 Transfo
 特征融合模块 (Feature Fusion Module)：最后，一个融合模块将来自上述两个分支的特征进行整合，从而实现高精度的功率预测 。
 
 
-
 ## 结果
 DWT-Former 在所有四个数据集上的表现优于或显著优于当前主流的时间序列预测基准模型（如 LSTM, GRU, Informer, TimesNet 等）
 Dataset|	MAE (DWT-Former)|	Best Baseline (MAE)	|Improvement
@@ -51,3 +50,15 @@ AS-PV	|0.169	|0.179| (Bi-LSTM)	|5.6%
 CC-PV	|0.192|	0.219| (CNN+GRU+LSTM)|	12.3%
 NWG-PV	|0.108|	0.133| (CNN+GRU+LSTM)|	18.8%
 Comp-PV	|0.278|	0.300| (GRU)	|7.3%
+
+## 引用
+如果你使用了这段代码，请引用原始论文:
+```plaintext
+plaintext
+@article{sun2024dwtformer,
+  title={DWT-Former: Fusing Wavelet-Based Multi-Scale Features and Transformer-Based Temporal Representations for Photovoltaic Power Forecasting},
+  author={Sun, Qihui and Yan, Feng and Sun, Wanqing and Zhou, Yuqing},
+  journal={Submitted to Elsevier},
+  year={2024}
+}
+```
