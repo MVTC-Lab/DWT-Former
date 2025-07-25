@@ -1,5 +1,7 @@
 # DWT-Former: Fusing Wavelet-Based Multi-Scale Features and Transformer-Based Temporal Representations for Photovoltaic Power Forecasting
 zh_CN [简体中文](README.md)
+
+
 Photovoltaic (PV) power forecasting faces challenges in capturing long-range temporal dependencies and fusing multi-source heterogeneous information such as meteorological data and historical power data. Accurately modeling the multi-scale dynamics of PV power, from seasonal variations to high-frequency fluctuations, is crucial for achieving accurate predictions. The proposed DWT-Former in this project is a novel hybrid deep learning framework designed to address these challenges. Its unique dual-branch structure combines the advantages of Transformer models in handling temporal dependencies with the ability of multi-scale wavelet analysis to capture frequency characteristics. Through excellent performance on multiple real-world PV datasets, DWT-Former has demonstrated its strong capability in capturing complex PV power generation dynamics, providing a valuable tool for optimizing grid management and promoting solar energy integration.
 
 The core of the DWT-Former model is a dual-branch collaborative prediction framework, aiming to tackle the inherent challenges in PV power forecasting, such as non-stationarity, multi-scale coupling characteristics, and multi-source data fusion.
