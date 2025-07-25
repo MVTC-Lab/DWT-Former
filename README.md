@@ -16,8 +16,8 @@ DWT-Former 模型的核心是一个双分支协作预测框架，旨在解决光
   克隆本仓库：
   ```bash
   # 安装依赖
-  pip install -r requirements.txt  # 这行不会被高亮
-  python setup.py install          # 这行也不会
+  pip install -r requirements.txt  
+  python setup.py install          
   ```
 
   ``` base
@@ -51,14 +51,3 @@ CC-PV	|0.192|	0.219| (CNN+GRU+LSTM)|	12.3%
 NWG-PV	|0.108|	0.133| (CNN+GRU+LSTM)|	18.8%
 Comp-PV	|0.278|	0.300| (GRU)	|7.3%
 
-## 引用
-如果你使用了这段代码，请引用原始论文:
-```plaintext
-plaintext
-@article{sun2024dwtformer,
-  title={DWT-Former: Fusing Wavelet-Based Multi-Scale Features and Transformer-Based Temporal Representations for Photovoltaic Power Forecasting},
-  author={Sun, Qihui and Yan, Feng and Sun, Wanqing and Zhou, Yuqing},
-  journal={Submitted to Elsevier},
-  year={2024}
-}
-```
